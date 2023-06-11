@@ -1,0 +1,236 @@
+
+
+@media (min-width:1200px) /* lg*/ {
+    .row_pc{
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+    .container{
+        width: 1200px;
+    }
+    .nav-container {
+        display: flex;
+        justify-content: space-between;
+    }
+    .item-dathang-ngay-phone strong {
+        font-size: 14px !important;
+    }
+}
+
+@media (min-width:992px) and (max-width:1199px) /* md*/{
+    .list_link_hd{
+        float: left !important;
+    }
+    .nav-container {
+        display: flex;
+        justify-content: space-between;
+    }
+    .item-dathang-ngay-phone strong {
+        font-size: 14px !important;
+    }
+    .mua-ngay-tu-van {
+        font-size: 11px !important;
+    }
+
+    .banner-uu-dai {
+        height: 250px !important;
+    }
+
+    section.sanpham-moi {
+        margin-top: 30px !important;
+    }
+
+}
+
+@media (min-width:768px) and (max-width:991px) /* sm*/{
+    .sc_header_menu.sticky-header{
+        position: relative !important;
+    }
+    .noidung-item-sanphammoi {
+        height: 200px !important; 
+    } 
+    .item-dathang-ngay-phone strong {
+        font-size: 14px !important;
+    }
+    .mua-ngay-tu-van {
+        font-size: 12px !important;
+    }
+    .item2-chitiet{
+        margin-top: 20px !important;
+    }
+    .tieude-item2{
+        margin-top: 20px !important;
+    }
+    section.sanpham-moi {
+        margin-top: 10px !important; 
+    }
+
+    .banner-uu-dai {
+        height: 190px !important;
+    }
+}
+
+@media (max-width:767px) /* xs*/{
+    .item2-chitiet{
+        margin-top: 20px !important;
+    }
+    .tieude-item2{
+        margin-top: 20px !important;
+    }
+    .noidung-item-banhang-cung b {
+        font-size: 14px !important;
+    }
+    .noidung-item-banhang-cung p {
+        font-size: 14px !important;
+    }
+    .banhang-cung .item-banhang-cung {
+        height: 75px !important;
+    }
+    .danh-gia-sao .row {
+        align-items: inherit !important;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .sc_header_menu.sticky-header{
+        position: relative !important;
+    }
+section.section_box {
+    display: block !important;
+}
+.hotline_menu_chat .row {
+    -js-display: flex;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+}
+.chat_item a p {
+    display: block !important;
+}
+.title_head_pro h2 span {
+    font-size: 22px !important;
+}
+.title_head_pro h2:before {
+    left: 10% !important;
+    top: 19px !important;
+}
+.title_head_pro h2:after {
+    top: 19px !important;
+    right: 0% !important;
+    transform: translate(-12%, 0px) !important;
+}
+.bg_pro .col_pro .col_inner {
+    margin-bottom: 20px;
+}
+.col_pro {
+    padding: 0 8px;
+    margin-bottom: 20px;
+}
+.picture_product {
+    height: 220px !important;
+    overflow: hidden;
+}
+.list_new_home ul li a {
+    color: #000000;
+    font-size: 12px !important;
+}
+.customer_home {
+    margin-top: 20px;
+}
+.left_ft_mid h3 {
+    margin-top: 20px;
+}
+
+.noidung-item-sanphammoi {
+    flex-direction: column;
+    height: 300px !important;
+
+    }
+    .item-list-giay-gian-tuong {
+        width: 100% !important;
+    }
+
+    .img-item-giay-gian-tuong {
+        height: 150px !important;
+    }
+
+    .name-sanpham-moi {
+        width: 100% !important;
+    }
+
+    .noidung-tren-footer {
+        flex-direction: column;
+        text-align: center;
+    }
+    .tren-footer{
+        height: 215px !important;
+    }
+
+    .banner-uu-dai {
+        height: 90px !important;
+    }
+
+    .img-left-sanphammoi {
+        height: 200px !important;
+    }
+
+    .item-left-sanphammoi{
+        margin-bottom: 20px;
+    }
+
+    .owl-carousel.owl-theme.slider-goctrainghem.owl-loaded.owl-drag {
+        height: 350px !important;
+    }
+
+    .owl-carousel.owl-theme.slider-goctrainghem.owl-loaded.owl-drag .item {
+        height: 350px !important;
+    }
+
+    .sum-slide-goctrainghiem .bg-goctrainghiem {
+        height: 350px !important;
+    }
+
+    .sum-slide-goctrainghiem {
+        height: 350px !important;
+    }
+    .item-dathang-ngay-phone strong {
+        font-size: 14px !important;
+    }
+    .mua-ngay-tu-van {
+        font-size: 12px !important;
+    }
+}
+
+@media (max-width:480px) {
+    .col-480-12{
+        width: 100% !important;
+    }
+    .col-480-6{
+        width: 50% !important;
+    }
+    .hidden-480{
+        display: none !important;
+    }
+    .visible-480{
+        display: block !important;
+    }
+
+    .tien-sanpham .tien-moi {
+        font-size: 14px !important;
+    }
+
+    .tien-sanpham .tien-cu {
+        font-size: 14px !important;
+    }
+    section.sanpham-moi {
+        margin-top: 10px !important;
+    }
+
+}
+
+
+.visible-480{
+    display: none;
+}
+
